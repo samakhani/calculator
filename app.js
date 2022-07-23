@@ -1,7 +1,9 @@
-// Created by Ishu
+function insert(num) {
 
-/* ----- Calculator ----- */
+	var a = document.form.textview;
 
+	a.value += num;
+}
 function opt(amd) {
 	var view = document.form.textview;
 	if (view.value != "") {
